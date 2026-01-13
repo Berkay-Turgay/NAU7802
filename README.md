@@ -108,10 +108,15 @@ Returns the calibrated weight value averaged over specified samples.
 
 ## Main Program Flow
 System Initialization - Clock, GPIO, I2C, UART
+
 NAU7802 Initialization - Device setup and check
+
 Calibration - Internal calibration process
+
 Tare Operation - Zero point setting
+
 Continuous Reading - Real-time weight measurement
+
 LED Indicator - Status LED blinking
 
 ## Configuration Notes
