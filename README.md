@@ -121,16 +121,21 @@ LED Indicator - Status LED blinking
 
 ## Configuration Notes
 Calibration Factor: The value -6800.0f should be adjusted based on your specific load cell and known weight
+
 Sample Rate: Default is 10 samples per second
+
 Gain: Default gain is 128
+
 LDO Voltage: Default is 3.3V
 
 ## Error Handling
 Initialization failure triggers LED blinking and error messages
+
 Calibration warnings are displayed but don't halt execution
+
 UART printf redirection for debugging output
 
 ## Output Format
 The program outputs both raw ADC values and converted weight:
-text
+
 Raw: 12345    Weight: 0.250 kg    (250.0 g)
